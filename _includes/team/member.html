@@ -1,0 +1,42 @@
+{% assign member = include.member %}
+
+{%- assign full_name = member.firstname | append: " " | append: member.lastname -%}
+{%- assign axes = " " -%}
+{%- for axis in member.axes -%}
+{%- assign axes = axes | append: " " | append: "axis-" | append: axis -%}
+{%- endfor -%}
+
+<!-- <div class="member text-center {{member.position}} {{axes}}">
+<a href="{{ member.url }}" target="_blank">
+<div class="reflection-container">
+  {% for i in (1..100) %}
+    <span class="reflection-grid-cell reflection-grid-cell-{{i}}"></span>
+  {% endfor %}
+  <div class="reflection-content"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member.profilepic | prepend: '/assets/img/team/' | relative_url }}"></div>
+</div>
+  {{ full_name }}</a><br>
+  {{member.position}}
+  {% if member.alumni != true}
+  {% else %}
+    <br> Now at {{member.nowat}}
+  {% endif %}
+</div> -->
+
+<div class="member text-center {{member.position}}">
+  {% if member.category != "alumni" %}
+  <a href="{{ member.url }}" target="_blank">
+    {% if member.profilepic %}
+    <img class="member-img-rectangle" alt="{{ full_name }}"
+      src="{{ member.profilepic | prepend: '/assets/img/team/' | relative_url }}">
+    {% endif %}
+    {{ full_name }}</a><br>{{ member.position }}
+  {% if member.info %}
+  <br><span class="info">{{ member.info }}</span>
+  {% endif %}
+  {% else %}
+  <a href="{{ member.url }}" target="_blank">{{ full_name }}</a>
+  {% if member.info %}
+  <br><span class="info">{{ member.info }}</span>
+  {% endif %}
+  {% endif %}
+</div>
