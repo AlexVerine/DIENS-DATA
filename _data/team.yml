@@ -1,0 +1,147 @@
+-
+    lastname: Mallat
+    firstname: Stephane
+    url: https://www.di.ens.fr/~mallat/
+    profilepic: mallat.png
+    position: Professor
+    info: "Collège de France"
+    category: feature
+
+-
+    lastname: Cappé
+    firstname: Olivier
+    url: https://www.di.ens.fr/~cappe/
+    profilepic: cappe.png
+    position: Research Director
+    info: CNRS
+    category: feature
+
+-   
+    lastname: Loureiro
+    firstname: Bruno
+    url: https://brloureiro.github.io/
+    profilepic: loureiro.png
+    position: Researcher
+    info: CNRS
+    category: feature
+
+-
+    lastname: Nadjahi
+    firstname: Kimia
+    url: https://kimiandj.github.io/
+    profilepic: nadjahi.png
+    position: Researcher
+    info: CNRS
+    category: feature
+
+
+-
+    lastname: Vérine    
+    firstname: Alexandre
+    url: https://www.alexverine.com
+    profilepic: verine.png
+    position: AI Reseach Fellow
+    info: PSL
+    category: postdoc
+
+-   
+    lastname: Thurin
+    firstname: Gauthier
+    url: https://gauthierturin.github.io/
+    category: postdoc
+    position: Postdoc
+
+-   
+    lastname: Aymé
+    firstname: Alexis
+    url: https://alexisayme.github.io/
+    profilepic: ayme.png
+    category: postdoc
+    position: Postdoc
+
+- 
+    lastname: Lempereur
+    firstname: Etienne
+    url: https://www.di.ens.fr/data/
+    position: PhD Student
+    profilepic: lempereur.png
+    category: phd
+
+- 
+    lastname: Wortsman
+    firstname: Arie
+    url: https://www.linkedin.com/in/arie-wortsman-315391175/?originalSubdomain=fr
+    position: PhD Student
+    profilepic: wortsman.png
+    category: phd
+
+- 
+    lastname: De Filippis
+    firstname: Leonardo
+    url: https://leonardodefilippis.com/
+    position: PhD Student
+    profilepic: defilippis.png
+    category: phd
+
+-
+    lastname: Cuvelle-Magar
+    firstname: Nathanaël
+    url: https://www.di.ens.fr/data/
+    position: PhD Student
+    category: phd
+
+-
+    lastname: Bourdrez
+    firstname: Constant
+    url: https://www.di.ens.fr/data/
+    position: Intern 
+    category: intern
+
+- 
+    lastname: Loup-Forest
+    firstname: Clément
+    url: https://www.di.ens.fr/data/
+    position: Intern 
+    category: intern
+
+- 
+    lastname: Dorseuil
+    firstname: Valentin
+    url: https://www.di.ens.fr/data/
+    position: Intern 
+    category: intern
+
+- 
+    lastname: Benarroch
+    firstname: Hanna
+    url: https://www.di.ens.fr/data/
+    position: Intern
+    category: intern
+
+- 
+    lastname: Fogliani
+    firstname: Luigi
+    url: https://www.di.ens.fr/data/
+    position: Intern 
+    category: intern
+
+-
+    lastname: Rochette
+    firstname: Gaspar
+    url: https://www.linkedin.com/in/gsprochette/?originalSubdomain=fr
+    category: alumni
+    info: ML Research Engineer @ Pruna AI
+
+-
+    lastname: Guth
+    firstname: Florentin
+    url: https://florentinguth.github.io/
+    category: alumni
+    info: Faculty Fellow @ NYU
+
+- 
+    lastname: Morel
+    firstname: Rudy
+    url: https://rudymorel.github.io/
+    category: alumni
+    info: Research Fellow @ Flatiron

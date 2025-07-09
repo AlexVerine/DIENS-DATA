@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+      {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+  <!-- Logos -->
+  <div class="about-logos"
+    style="display: flex; gap: 2.5rem; justify-content: center; align-items: center; flex-wrap: wrap; margin: 2.5rem 0;">
+    <img src="{{ '/assets/img/enslogo.png' | relative_url }}" alt="ENS logo" height="100px">
+    <img src="{{ '/assets/img/cnrs.png' | relative_url }}" alt="CNRS logo" height="100px">
+    <img src="{{ '/assets/img/prairie.jpg' | relative_url }}" alt="PRAIRIE logo" height="100px">
+  </div>
+
+  <article>
+    <p class="textall">{{ page.description }}</p>
+    {% if page.researches -%}
+    <!-- Researches -->
+    <div class="research">
+      <h2>Research axes</h2>
+      <div class="axes">
+        <article>
+          {%- assign im_path = "research/scattcolor.png" | prepend: 'assets/img/' -%}
+
+          {% include figure.html
+          path=im_path
+          class="axis"
+          alt="Data Processing" -%}
+          <div class="title">Data Processing</div>
+        </article>
+        <article>
+          {%- assign im_path = "research/deeplearning.jpg" | prepend: 'assets/img/' -%}
+
+          {% include figure.html
+          path=im_path
+          class="axis"
+          alt="Theory of Deep Learning" -%}
+          <div class="title">Theory of Deep Learning</div>
+        </article>
+        <article>
+          {%- assign im_path = "research/abc.jpg" | prepend: 'assets/img/' -%}
+
+          {% include figure.html
+          path=im_path
+          class="axis"
+          alt="Trustworthy Machine Learning" -%}
+          <div class="title">Trustworthy Machine Learning</div>
+        </article>
+      </div>
+    </div>
+    {%- endif %}
+
+    {% if page.news -%}
+    <!-- News -->
+    {%- include news.html %}
+    {%- endif %}
+    {% if page.selected_papers -%}
+    <!-- Selected papers -->
+    {%- include selected_papers.html %}
+    {%- endif %}
+    {%- if page.social %}
+    <!-- Social -->
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+
+      <div class="contact-note">
+        {{ site.contact_note }}
+      </div>
+
+    </div>
+    {%- endif %}
+  </article>
+  <!--             {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
+            </div>
+            {%- endif %}
+ -->
+</div>

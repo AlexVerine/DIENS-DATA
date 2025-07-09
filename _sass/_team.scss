@@ -1,0 +1,56 @@
+// .member-img-rectangle {
+//     width: 160px;
+//     height: 250px;
+//     min-width: 160px;
+//     /* 👈 sets a minimum width */
+//     object-fit: contain;
+//     border-radius: 0 !important;
+//     display: block;
+//     margin: 0 auto;
+//     margin-inline: 36px;
+//     /* 👈 left and right minimum margins */
+
+//     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); // optional shadow for a photo frame look
+//     justify-self: center;
+// }
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    /* spacing between members */
+    justify-items: center;
+    align-items: start;
+}
+
+.team-category-title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    margin-top: 3rem;
+}
+
+.about-logo {
+    height: 60px;
+    margin: 0 15px 20px 0;
+}
+
+.member-img-rectangle {
+    width: 100px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0 !important;
+    justify-self: center;
+}
+
+/* On small screens, shrink the image */
+@media (max-width: 600px) {
+    .member-img-rectangle {
+        width: 75px;
+        height: 140px;
+    }
+}
