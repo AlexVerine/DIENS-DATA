@@ -8,7 +8,7 @@ subtitle: >
   <strong>We develop foundational mathematical and algorithmic approaches for high-dimensional learning and generative modeling.</strong>  
   Our research focuses on representation learning, statistical inference, privacy, and generative models with applications across physics, audio, vision, and neuroscience.<br>
   <br>
-  We are members of the interdisciplinary ENS team for AI, the <a href="https://csd.ens.psl.eu/">Centre de Sciences des Données</a> (CSD), and the <a href="https://prairie-institute.fr/">PR[AI]RIE-PSAI Institute</a>. We are a joint research team between the <a href="https://www.ens.psl.eu/">École Normale Supérieure</a> and the <a href="https://www.cnrs.fr/">CNRS</a> UMR 8548.<br>
+  We are hosted at the interdisciplinary ENS Center for AI, the <a href="https://csd.ens.psl.eu/">Centre de Sciences des Données</a> (CSD). Members of the team are also actively involved in the <a href="https://prairie-institute.fr/">PR[AI]RIE - PSAI (Paris School of AI) Cluster</a>. DATA is a joint research team between the <a href="https://www.ens.psl.eu/">École Normale Supérieure</a> and the <a href="https://www.cnrs.fr/">CNRS</a>.<br>
   <br>
   The DATA group also hosts the <a href="https://mathadata.fr/fr">MathAData</a>  and the <a href="https://challengedata.ens.fr/">Challenge Data</a> initiatives detailed in the Projects section.
 description: >

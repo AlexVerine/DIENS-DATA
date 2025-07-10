@@ -1,7 +1,7 @@
 -
     lastname: Mallat
     firstname: Stephane
-    url: https://www.di.ens.fr/~mallat/
+    url: https://www.di.ens.fr/stephane.mallat/
     profilepic: mallat.png
     position: Professor
     info: "Collège de France"
@@ -10,9 +10,9 @@
 -
     lastname: Cappé
     firstname: Olivier
-    url: https://www.di.ens.fr/~cappe/
+    url: https://www.di.ens.fr/olivier.cappe/
     profilepic: cappe.png
-    position: Research Director
+    position: Senior Researcher
     info: CNRS
     category: feature
 
@@ -40,8 +40,7 @@
     firstname: Alexandre
     url: https://www.alexverine.com
     profilepic: verine.png
-    position: AI Reseach Fellow
-    info: PSL
+    position: PSL AI Reseach Fellow
     category: postdoc
 
 -   
