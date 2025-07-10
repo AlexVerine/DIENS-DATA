@@ -175,3 +175,79 @@
     url: https://rudymorel.github.io/
     category: alumni
     info: Research Fellow @ Flatiron
+
+-
+    lastname: Zarka
+    firstname: John
+    category: alumni
+    url: https://www.di.ens.fr/data/
+
+- 
+    lastname: Brochard
+    firstname: Antoine
+    category: alumni
+    url: https://www.researchgate.net/profile/Antoine-Brochard
+    info: ML Research Scientist @ AQEMIA
+
+-
+  lastname: Thiry
+  firstname: Louis
+  category: alumni
+  url: https://www.github.com/louity
+  info: Research @ H Company
+
+-
+  lastname: Angles
+  firstname: Tomás
+  category: alumni
+
+-
+  lastname: Andreux
+  firstname: Mathieu
+  category: alumni
+  url: http://www.di.ens.fr/~andreux/
+  info: Research @ H Company
+
+-
+  lastname: Oyallon
+  firstname: Edouard
+  category: alumni
+  url: https://edouardoyallon.github.io/
+  info: CNRS researcher @ MLIA
+
+-
+  lastname: Lostanlen
+  firstname: Vincent
+  category: alumni
+  url: https://github.com/lostanlen
+  info: CNRS researcher @ LS2N
+
+-
+  lastname: Waldspurger
+  firstname: Irène
+  category: alumni
+  url: https://www.ceremade.dauphine.fr/~waldspurger/
+  info: CNRS researcher @ CEREMADE
+
+-
+  lastname: Sifre
+  firstname: Laurent
+  category: alumni
+  url: https://scholar.google.com/citations?user=0kVh58wAAAAJ
+  info: Research Scientist @ H Company
+
+-
+  lastname: Bruna
+  firstname: Joan
+  category: alumni
+  url: http://cims.nyu.edu/~bruna/
+  info: Professor @ NYU
+
+-
+  lastname: Andén
+  firstname: Joakim
+  category: alumni
+  url: http://web.math.princeton.edu/~janden/
+  info: Associate Professor @ KTH Royal Institute of Technology
+
+  
