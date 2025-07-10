@@ -19,6 +19,7 @@ nav_order: 1
 {%- assign phd_without_pic = site.data.team | where: "category", "phd" | where_exp: "item", "item.profilepic == nil" | sort_natural: "lastname" -%}
 {%- assign phd = phd_with_pic | concat: phd_without_pic -%}
 
+{% assign engineer = site.data.team | where: "category", "engineer" | sort_natural: "lastname" %}
 {% assign intern = site.data.team | where: "category", "intern" | sort_natural: "lastname" %}
 {% assign alumni = site.data.team | where: "category", "alumni" | sort_natural: "lastname" %}
 
@@ -47,11 +48,22 @@ nav_order: 1
 </div>
 {% endif %}
 
+
 <!-- PhD Students -->
 {% if phd.size > 0 %}
 <h2 class="team-category-title">PhD Students</h2>
 <div class="team phd">
   {% for member in phd %}
+    {% include team/member.html member=member %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Engineer -->
+{% if engineer.size > 0 %}
+<h2 class="team-category-title">Engineer</h2>
+<div class="team engineer">
+  {% for member in engineer %}
     {% include team/member.html member=member %}
   {% endfor %}
 </div>

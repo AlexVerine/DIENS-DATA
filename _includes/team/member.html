@@ -23,7 +23,7 @@
 </div> -->
 
 <div class="member text-center {{member.position}}">
-  {% if member.category != "alumni" %}
+  {% if member.category != "alumni" and member.category != "intern" and member.category != "engineer" %}
   <a href="{{ member.url }}" target="_blank">
     {% if member.profilepic %}
     <img class="member-img-rectangle" alt="{{ full_name }}"

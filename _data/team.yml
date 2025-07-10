@@ -47,7 +47,7 @@
 -   
     lastname: Thurin
     firstname: Gauthier
-    url: https://gauthierturin.github.io/
+    url: https://gauthierthurin.github.io/site/
     category: postdoc
     position: Postdoc
 
@@ -94,6 +94,7 @@
     lastname: Bourdrez
     firstname: Constant
     url: https://www.di.ens.fr/data/
+    profilepic: bourdrez.png
     position: Intern 
     category: intern
 
@@ -131,6 +132,35 @@
     url: https://www.linkedin.com/in/gsprochette/?originalSubdomain=fr
     category: alumni
     info: ML Research Engineer @ Pruna AI
+
+- 
+    lastname: Viennet
+    firstname: Akim
+    url: https://www.linkedin.com/in/akim-viennet/?originalSubdomain=fr
+    category: engineer
+    info: MathAData
+
+- 
+    lastname: Capietto
+    firstname: Louis    
+    url: https://www.di.ens.fr/contact?user=340
+    category: engineer
+    info: MathAData
+
+- 
+    lastname: Guth
+    firstname: Romaric
+    url: https://www.romaricguth.com/fr
+    category: engineer
+    info: MathAData
+
+- 
+    lastname: Quiles Maran
+    firstname: Andrada
+    url: https://www.di.ens.fr/data/
+    category: engineer
+    info: MathAData
+
 
 -
     lastname: Guth

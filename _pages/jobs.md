@@ -12,8 +12,6 @@ nav_order: 5
 
 <strong>We are always looking for spontaneous applications!</strong>
 
-
-
 <hr style="margin-top: 5rem;">
 ### No open positions at the moment
 
