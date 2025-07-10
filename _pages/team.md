@@ -59,9 +59,9 @@ nav_order: 1
 </div>
 {% endif %}
 
-<!-- Engineer -->
+<!-- Engineers -->
 {% if engineer.size > 0 %}
-<h2 class="team-category-title">Engineer</h2>
+<h2 class="team-category-title">Engineers</h2>
 <div class="team engineer">
   {% for member in engineer %}
     {% include team/member.html member=member %}
