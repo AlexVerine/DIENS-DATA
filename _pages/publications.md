@@ -10,7 +10,7 @@ nav_order: 2
 <div class="publications">
 
 <!-- <h2 class="year">2023</h2> -->
-{% bibliography -f papers %}
+{% bibliography -f papers --order descending %}
 
 
 
