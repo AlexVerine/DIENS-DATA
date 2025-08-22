@@ -25,6 +25,12 @@
 @string{ECML = {ECML}}
 @string{ICML = {ICML}}
 @string{ICLR = {ICLR}}
+@string{JMLR = {JMLR}}
+@string{UAI = {UAI}}
+@string{AISTATS = {AISTATS}}
+@string{PRE = {PRE}}
+@string{MLST = {MLST}}
+@string{JSTAT = {JSTAT}}
 
 
 % class can be article, inproceedings
@@ -79,213 +85,197 @@
 
 %%%%%%%%%%%%%% BL Papers (since 2024) %%%%%%%%%%%%%%
 
+%% Pre-prints
+
 @article{arnaboldi2024escaping,
   title         = {Escaping mediocrity: how two-layer networks learn hard generalized linear models with SGD},
   author        = {Luca Arnaboldi and Florent Krzakala and Bruno Loureiro and Ludovic Stephan},
   year          = {2024},
-  journal       = {arXiv preprint arXiv:2305.18502},
-  archiveprefix = {arXiv},
-  primaryclass  = {stat.ML},
-}
-
-@article{dandi2024two,
-  title={How two-layer neural networks learn, one (giant) step at a time},
-  author={Dandi, Yatin and Krzakala, Florent and Loureiro, Bruno and Pesce, Luca and Stephan, Ludovic},
-  journal={Journal of Machine Learning Research},
-  volume={25},
-  number={349},
-  pages={1--65},
-  year={2024},
-}
-
-@article{Schroder2024,
-doi = {10.1088/1742-5468/ad65e2},
-year = {2024},
-month = {oct},
-publisher = {IOP Publishing},
-volume = {2024},
-number = {10},
-pages = {104017},
-author = {Schröder, Dominik and Cui, Hugo and Dmitriev, Daniil and Loureiro, Bruno},
-title = {Deterministic equivalent and error universality of deep random features learning*},
-journal = {Journal of Statistical Mechanics: Theory and Experiment},
-}
-
-@article{bereyhi2023bayesian,
-  title={Bayesian inference with nonlinear generative models: Comments on secure learning*},
-  author={Bereyhi, Ali and Loureiro, Bruno and Krzakala, Florent and M{\"u}ller, Ralf R and Schulz-Baldes, Hermann},
-  journal={IEEE Transactions on Information Theory},
-  volume={69},
-  number={12},
-  pages={7998--8028},
-  year={2023},
-  publisher={IEEE},
-}
-
-@article{Dandi2024,
-doi = {10.1088/1742-5468/ad65e7},
-year = {2024},
-month = {oct},
-publisher = {IOP Publishing},
-volume = {2024},
-number = {10},
-pages = {104015},
-author = {Dandi, Yatin and Stephan, Ludovic and Krzakala, Florent and Loureiro, Bruno and Zdeborová, Lenka},
-title = {Universality laws for Gaussian mixtures in generalized linear models*},
-journal = {Journal of Statistical Mechanics: Theory and Experiment},
-}
-
-@inproceedings{clarte2024analysis,
-  title = {Analysis of Bootstrap and Subsampling in High-dimensional Regularized Regression},
-  author = {Clart\'e, Lucas and Vandenbroucque, Adrien and Dalle, Guillaume and Loureiro, Bruno and Krzakala, Florent and Zdeborov\'a, Lenka},
-  booktitle={Uncertainty in Artificial Intelligence},
-  pages = 	 {787--819},
-  year={2024},
-  organization={PMLR},
-}
-
-@InProceedings{tanner25a,
-  title = 	 {A High Dimensional Statistical Model for Adversarial Training: Geometry and Trade-Offs},
-  author =       {Tanner, Kasimir and Vilucchio, Matteo and Loureiro, Bruno and Krzakala, Florent},
-  booktitle = 	 {International Conference on Artificial Intelligence and Statistics},
-  pages = 	 {2530--2538},
-  year = 	 {2025},
-  organization={PMLR},
-}
-
-@InProceedings{dandi25a,
-  title = 	 {A Random Matrix Theory Perspective on the Spectrum of Learned Features and Asymptotic Generalization Capabilities},
-  author =       {Dandi, Yatin and Pesce, Luca and Cui, Hugo and Krzakala, Florent and Lu, Yue and Loureiro, Bruno},
-  booktitle = 	 {International Conference on Artificial Intelligence and Statistics},
-  pages = 	 {2224--2232},
-  year = 	 {2025},
-  organization={PMLR},
-}
-
-@InProceedings{troiani25a,
-  title = 	 {Fundamental computational limits of weak learnability in high-dimensional multi-index models},
-  author =       {Troiani, Emanuele and Dandi, Yatin and \textbf{Defilippis, Leonardo} and Zdeborova, Lenka and Loureiro, Bruno and Krzakala, Florent},
-  booktitle = 	 {International Conference on Artificial Intelligence and Statistics},
-  pages = 	 {2467--2475},
-  year = 	 {2025},
-  organization =    {PMLR},
-}
-
-
-@InProceedings{arnaboldi24a,
-  title = 	 {Online Learning and Information Exponents: The Importance of Batch size \& {T}ime/{C}omplexity Tradeoffs},
-  author =       {Arnaboldi, Luca and Dandi, Yatin and Krzakala, Florent and Loureiro, Bruno and Pesce, Luca and Stephan, Ludovic},
-  booktitle = 	 {International Conference on Machine Learning},
-  pages = 	 {1730--1762},
-  year = 	 {2024},
-  month = 	 {21--27 Jul},
-  organization =    {PMLR},
-}
-
-
-@InProceedings{cui24d,
-  title = 	 {Asymptotics of feature learning in two-layer networks after one gradient-step},
-  author =       {Cui, Hugo and Pesce, Luca and Dandi, Yatin and Krzakala, Florent and Lu, Yue and Zdeborova, Lenka and Loureiro, Bruno},
-  booktitle = 	 {International Conference on Machine Learning},
-  pages = 	 {9662--9695},
-  year = 	 {2024},
-  month = 	 {21--27 Jul},
-  organization =    {PMLR},
-}
-
-@InProceedings{schroder24a,
-  title = 	 {Asymptotics of Learning with Deep Structured ({R}andom) Features},
-  author =       {Schr\"{o}der, Dominik and Dmitriev, Daniil and Cui, Hugo and Loureiro, Bruno},
-  booktitle = 	 {International Conference on Machine Learning},
-  pages = 	 {43862--43894},
-  year = 	 {2024},
-  volume = 	 {235},
-  month = 	 {21--27 Jul},
-  publisher =    {PMLR},
-}
-
-@article{gerace2024gaussian,
-  title={Gaussian universality of perceptrons with random labels},
-  author={Gerace, Federica and Krzakala, Florent and Loureiro, Bruno and Stephan, Ludovic and Zdeborov{\'a}, Lenka},
-  journal={Physical Review E},
-  volume={109},
-  number={3},
-  pages={034305},
-  year={2024},
-  publisher={APS},
-}
-
-@inproceedings{Defilippis2024,
- author = {\textbf{Defilippis, Leonardo} and Loureiro, Bruno and Misiakiewicz, Theodor},
- booktitle = {Advances in Neural Information Processing Systems},
- editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
- pages = {104630--104693},
- publisher = {Curran Associates, Inc.},
- title = {Dimension-free deterministic equivalents and scaling laws for random feature regression},
- volume = {37},
- year = {2024},
-}
-
-@article{soletskyi2024theoretical,
-  title={A theoretical perspective on mode collapse in variational inference},
-  author={\underline{Soletskyi, Roman} and Gabri{\'e}, Marylou and Loureiro, Bruno},
-  journal={Machine Learning: Science and Technology},
-  volume={6},
-  number={2},
-  pages={025056},
-  year={2025},
-  publisher={IOP Publishing},
+  journal       = arXiv,
+  url			= {https://arxiv.org/abs/2305.18502},
+  pdf			= {https://arxiv.org/pdf/2305.18502},
+  preview   	= {2024-mediocrity.png}
 }
 
 @article{vilucchio2024geometry,
-  title={On the Geometry of Regularization in Adversarial Training: High-Dimensional Asymptotics and Generalization Bounds},
-  author={Vilucchio, Matteo and Tsilivis, Nikolaos and Loureiro, Bruno and Kempe, Julia},
-  journal={arXiv preprint arXiv:2410.16073},
-  year={2024},
-}
-
-@article{adomaityte2024high,
-  title={High-dimensional robust regression under heavy-tailed data: Asymptotics and universality},
-  author={Adomaityte, Urte and \textbf{Defilippis, Leonardo} and Loureiro, Bruno and Sicuro, Gabriele},
-  journal={Journal of Statistical Mechanics: Theory and Experiment},
-  volume={2024},
-  number={11},
-  pages={114002},
-  year={2024},
-  publisher={IOP Publishing},
+  title         = {On the Geometry of Regularization in Adversarial Training: High-Dimensional Asymptotics and Generalization Bounds},
+  author        = {Matteo Vilucchio and Nikolaos Tsilivis and Bruno Loureiro and Julia Kempe},
+  year          = {2024},
+  journal       = arXiv,
+  url			= {https://arxiv.org/abs/2410.16073},
+  pdf			= {https://arxiv.org/pdf/2410.16073},
+  preview   	= {2024-geometry.png}
 }
 
 @article{defilippis2025optimal,
-  title={Optimal Spectral Transitions in High-Dimensional Multi-Index Models},
-  author={\textbf{Defilippis, Leonardo} and Dandi, Yatin and Mergny, Pierre and Krzakala, Florent and Loureiro, Bruno},
-  journal={arXiv preprint arXiv:2502.02545},
-  year={2025},
+  title         = {Optimal Spectral Transitions in High-Dimensional Multi-Index Models},
+  author        = {Leonardo Defilippis and Yatin Dandi and Pierre Mergny and Florent Krzakala and Bruno Loureiro},
+  year          = {2025},
+  journal       = arXiv,
+  url			= {https://arxiv.org/abs/2502.02545},
+  pdf			= {https://arxiv.org/pdf/2502.02545},
+  preview   	= {2025-spectral.png}
 }
 
 @article{fan2025dynamical,
-  title={Dynamical mean-field analysis of adaptive Langevin diffusions: Propagation-of-chaos and convergence of the linear response},
-  author={Fan, Zhou and Ko, Justin and Loureiro, Bruno and Lu, Yue M and Shen, Yandi},
-  journal={arXiv preprint arXiv:2504.15556},
-  year={2025},
+  title         = {Dynamical mean-field analysis of adaptive Langevin diffusions: Propagation-of-chaos and convergence of the linear response},
+  author        = {Fan, Zhou and Ko, Justin and Loureiro, Bruno and Lu, Yue M and Shen, Yandi},
+  year          = {2025},
+  journal       = arXiv,
+  url			= {https://arxiv.org/abs/2504.15556},
+  pdf			= {https://arxiv.org/pdf/2504.15556},
 }
 
 @article{fan2025dynamicalb,
-  title={Dynamical mean-field analysis of adaptive Langevin diffusions: Replica-symmetric fixed point and empirical Bayes},
-  author={Fan, Zhou and Ko, Justin and Loureiro, Bruno and Lu, Yue M and Shen, Yandi},
-  journal={arXiv preprint arXiv:2504.15558},
-  year={2025},
+  title         = {Dynamical mean-field analysis of adaptive Langevin diffusions: Propagation-of-chaos and convergence of the linear response},
+  author        = {Fan, Zhou and Ko, Justin and Loureiro, Bruno and Lu, Yue M and Shen, Yandi},
+  year          = {2025},
+  journal       = arXiv,
+  url			= {https://arxiv.org/abs/2504.15558},
+  pdf			= {https://arxiv.org/pdf/2504.15558},
+  preview   	= {2025-dmft.png}
 }
 
 @article{vilucchio2025existence,
-  title={On the existence of consistent adversarial attacks in high-dimensional linear classification},
-  author={Vilucchio, Matteo and Zdeborov{\'a}, Lenka and Loureiro, Bruno},
-  journal={arXiv preprint arXiv:2506.12454},
-  year={2025},
+  title         = {On the existence of consistent adversarial attacks in high-dimensional linear classification},
+  author        = {Matteo Vilucchio and Lenka Zdeborov{\'a} and Bruno Loureiro},
+  year          = {2025},
+  journal       = arXiv,
+  url			= {https://arxiv.org/abs/2506.12454},
+  pdf			= {https://arxiv.org/pdf/2506.12454},
+  preview   	= {2025-adversarial.png}
 }
 
 @article{arnaboldi2025asymptotics,
-  title={Asymptotics of SGD in Sequence-Single Index Models and Single-Layer Attention Networks},
-  author={Arnaboldi, Luca and Loureiro, Bruno and Stephan, Ludovic and Krzakala, Florent and Zdeborova, Lenka},
-  journal={arXiv preprint arXiv:2506.02651},
-  year={2025},
+  title         = {Asymptotics of SGD in Sequence-Single Index Models and Single-Layer Attention Networks},
+  author        = {Luca Arnaboldi and Bruno Loureiro and Ludovic Stephan and Florent Krzakala and Lenka Zdeborova},
+  year          = {2025},
+  journal       = arXiv,
+  url			= {https://arxiv.org/abs/2506.02651},
+  pdf			= {https://arxiv.org/pdf/2506.02651},
+  preview   	= {2025-sequence.png}
+}
+
+%%% Journals
+
+@article{dandi2024two,
+  title         = {How two-layer neural networks learn, one (giant) step at a time},
+  author		= {Yatin Dandi and Florent Krzakala and Bruno Loureiro and Luca Pesce and Ludovic Stephan},
+  year			= {2024},
+  journal		= JMLR,
+  url			= {https://jmlr.org/papers/v25/23-1543.html},
+  pdf			= {https://www.jmlr.org/papers/volume25/23-1543/23-1543.pdf},
+  preview   	= {2024-giantstep.png}
+}
+
+@article{gerace2024gaussian,
+  title         = {Gaussian universality of perceptrons with random labels},
+  author        = {Federica Gerace and Florent Krzakala and Bruno Loureiro and Ludovic Stephan and Lenka Zdeborov{\'a}},
+  year          = {2024},
+  journal       = PRE,
+  url			= {https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.034305},
+  pdf			= {https://arxiv.org/pdf/2205.13303},
+  preview   	= {2024-perceptron.png}
+}
+
+@article{soletskyi2025theoretical,
+  title         = {A theoretical perspective on mode collapse in variational inference},
+  author        = {Roman Soletskyi and Marylou Gabri{\'e} and Bruno Loureiro},
+  year          = {2025},
+  journal       = MLST,
+  url			= {https://iopscience.iop.org/article/10.1088/2632-2153/adde2a},
+  pdf			= {https://arxiv.org/pdf/2410.13300},
+  preview   	= {2025-collapse.png}
+}
+
+@article{adomaityte2024high,
+  title         = {High-dimensional robust regression under heavy-tailed data: Asymptotics and universality},
+  author        = {Urte Adomaityte and Leonardo Defilippis and Bruno Loureiro and Gabriele Sicuro},
+  year          = {2024},
+  journal       = JSTAT,
+  url			= {https://iopscience.iop.org/article/10.1088/1742-5468/ad65e6},
+  pdf			= {https://arxiv.org/pdf/2309.16476},
+  preview   	= {2025-heavytail.png}
+}
+
+%%% Conference papers
+
+@inproceedings{schroder2024deterministic,
+	title     = {Asymptotics of Learning with Deep Structured (Random) Features},
+	author    = {Dominik Schröder and Daniil Dmitriev and Hugo Cui and Bruno Loureiro},
+	booktitle = ICML,
+	year      = {2024},
+	url       = {https://proceedings.mlr.press/v235/schroder24a.html},
+	pdf       = {https://proceedings.mlr.press/v235/schroder24a/schroder24a.pdf},
+	preview   = {2024-asymp.png}
+}
+
+@inproceedings{clarte2024bootstrap,
+	title     = {Analysis of Bootstrap and Subsampling in High-dimensional Regularized Regression},
+	author    = {Lucas Clart\'e and Adrien Vandenbroucque and Guillaume Dalle and Bruno Loureiro and Florent Krzakala and Lenka Zdeborov\'a},
+	booktitle = UAI,
+	year      = {2024},
+	url       = {https://proceedings.mlr.press/v244/clarte24a.html},
+	pdf       = {https://raw.githubusercontent.com/mlresearch/v244/main/assets/clarte24a/clarte24a.pdf},
+	preview   = {2024-bootstrap.png}
+}
+
+@inproceedings{tanner25a,
+	title     = {A High Dimensional Statistical Model for Adversarial Training: Geometry and Trade-Offs},
+	author    = {Kasimir Tanner and Matteo Vilucchio and Bruno Loureiro and Florent Krzakala},
+	booktitle = AISTATS,
+	year      = {2025},
+	url       = {https://proceedings.mlr.press/v258/tanner25a.html},
+	pdf       = {https://raw.githubusercontent.com/mlresearch/v258/main/assets/tanner25a/tanner25a.pdf},
+	preview   = {2025-robust.png}
+}
+
+@inproceedings{dandi25rmt,
+	title     = {A Random Matrix Theory Perspective on the Spectrum of Learned Features and Asymptotic Generalization Capabilities},
+	author    = {Yatin Dandi and Luca Pesce and Hugo Cui and Florent Krzakala and Yue Lu and Bruno Loureiro},
+	booktitle = AISTATS,
+	year      = {2025},
+	url       = {https://proceedings.mlr.press/v258/dandi25a.html},
+	pdf       = {https://raw.githubusercontent.com/mlresearch/v258/main/assets/dandi25a/dandi25a.pdf},
+	preview   = {2025-rmt.png}
+}
+
+@inproceedings{troiani25fundamental,
+	title     = {Fundamental computational limits of weak learnability in high-dimensional multi-index models},
+	author    = {Emanuele Troiani and Yatin Dandi and Leonardo Defilippis and Lenka Zdeborova and Bruno Loureiro and Florent Krzakala},
+	booktitle = AISTATS,
+	year      = {2025},
+	url       = {https://proceedings.mlr.press/v258/troiani25a.html},
+	pdf       = {https://raw.githubusercontent.com/mlresearch/v258/main/assets/troiani25a/troiani25a.pdf},
+	preview   = {2025-fundamental.png}
+}
+
+@inproceedings{arnaboldi24a,
+	title     = {Online Learning and Information Exponents: The Importance of Batch size \& {T}ime/{C}omplexity Tradeoffs},
+	author    = {Luca Arnaboldi and Yatin Dandi and Florent Krzakala and Bruno Loureiro and Luca Pesce and Ludovic Stephan},
+	booktitle = ICML,
+	year      = {2024},
+	url       = {https://proceedings.mlr.press/v235/arnaboldi24a.html},
+	pdf       = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/arnaboldi24a/arnaboldi24a.pdf},
+	preview   = {2025-online.png}
+}
+
+@inproceedings{cui24d,
+	title     = {Asymptotics of feature learning in two-layer networks after one gradient-step},
+	author    = {Hugo Cui and Luca Pesce and Yatin Dandi and Florent Krzakala and Yue Lu and Lenka Zdeborova and Bruno Loureiro},
+	booktitle = ICML,
+	year      = {2024},
+	url       = {https://proceedings.mlr.press/v235/cui24d.html},
+	pdf       = {https://raw.githubusercontent.com/mlresearch/v235/main/assets/cui24d/cui24d.pdf},
+	preview   = {2024-features.png}
+}
+
+@inproceedings{Defilippis2024,
+	title     = {Dimension-free deterministic equivalents and scaling laws for random feature regression},
+	author    = {Leonardo Defilippis and Bruno Loureiro and Theodor Misiakiewicz},
+	booktitle = NeurIPS,
+	year      = {2024},
+	url       = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/bd18189308a4c45c7d71ca83acf3deaa-Abstract-Conference.html},
+	pdf       = {https://proceedings.neurips.cc/paper_files/paper/2024/file/bd18189308a4c45c7d71ca83acf3deaa-Paper-Conference.pdf},
+	preview   = {2024-dimensionfree.png}
 }
