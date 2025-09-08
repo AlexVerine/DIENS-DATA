@@ -94,36 +94,38 @@
     firstname: Constant
     url: https://www.di.ens.fr/data/
     profilepic: bourdrez.png
-    position: Intern 
-    category: intern
+    position: PhD Student
+    category: phd
 
 - 
     lastname: Loup-Forest
     firstname: Clément
     url: https://www.di.ens.fr/data/
-    position: Intern 
-    category: intern
+    position: PhD Student
+    category: phd
+
 
 - 
     lastname: Dorseuil
     firstname: Valentin
     url: https://www.di.ens.fr/data/
-    position: Intern 
-    category: intern
+    position: PhD Student
+    category: phd
 
 - 
     lastname: Benarroch
     firstname: Hanna
     url: https://www.di.ens.fr/data/
-    position: Intern
-    category: intern
+    position: PhD Student
+    category: phd
 
 - 
     lastname: Fogliani
     firstname: Luigi
     url: https://www.di.ens.fr/data/
-    position: Intern 
-    category: intern
+    position: PhD Student
+    category: phd
+
 
 -
     lastname: Rochette

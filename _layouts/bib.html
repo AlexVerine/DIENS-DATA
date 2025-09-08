@@ -2,25 +2,20 @@
 ---
 <!-- _layouts/bib.html -->
 <div class="row">
-  <div class="col-sm-4 {%- if entry.preview -%}preview{%- else -%}abbr{%- endif -%}">
-    {%- if entry.preview -%}
+  {%- assign has_preview = false -%}
+  {%- if entry.preview -%}
+  {%- assign has_preview = true -%}
+  {%- endif -%}
+  <div class="col-sm-4">
+    {%- if has_preview -%}
     {%- if entry.preview contains '://' -%}
     <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
     {%- else -%}
     <img class="preview z-depth-1 rounded"
       src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
     {%- endif -%}
-    {%- elsif entry.abbr -%}
-    {%- if site.data.venues[entry.abbr] -%}
-    {%- assign venue_style = nil -%}
-    {%- if site.data.venues[entry.abbr].color != blank -%}
-    {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
-    {%- endif -%}
-    <abbr class="badge" {%- if venue_style -%}{{venue_style}}{%- endif -%}><a
-        href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
     {%- else -%}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    {%- endif -%}
+    <div class="no-preview-spacer"></div>
     {%- endif -%}
   </div>
 
