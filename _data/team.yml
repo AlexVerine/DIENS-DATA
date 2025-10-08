@@ -104,11 +104,11 @@
     position: PhD Student
     category: phd
 
-
 - 
     lastname: Dorseuil
     firstname: Valentin
     url: https://www.di.ens.fr/data/
+    profilepic: dorseuil.png
     position: PhD Student
     category: phd
 
@@ -116,6 +116,7 @@
     lastname: Benarroch
     firstname: Hanna
     url: https://www.di.ens.fr/data/
+    profilepic: benarroch.png
     position: PhD Student
     category: phd
 
@@ -123,9 +124,17 @@
     lastname: Fogliani
     firstname: Luigi
     url: https://www.di.ens.fr/data/
+    profilepic: fogliani.png
     position: PhD Student
     category: phd
 
+- 
+    lastname: Boïté
+    firstname: Samuel
+    url: https://www.di.ens.fr/data/
+    profilepic: boite.png
+    position: PhD Student
+    category: phd
 
 -
     lastname: Rochette
