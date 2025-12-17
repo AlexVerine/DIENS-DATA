@@ -43,6 +43,14 @@
     position: PSL AI Reseach Fellow
     category: postdoc
 
+-
+    lastname: Mergny
+    firstname: Pierre
+    url: https://www.linkedin.com/in/pierre-mergny-10b032a3/?originalSubdomain=fr
+    profilepic: mergny.png
+    position: Postdoc
+    category: postdoc
+
 -   
     lastname: Thurin
     firstname: Gauthier
@@ -80,6 +88,14 @@
     url: https://leonardodefilippis.com/
     position: PhD Student
     profilepic: defilippis.png
+    category: phd
+
+- 
+    lastname: Zelco
+    firstname: Chiara
+    url: https://www.linkedin.com/in/chiara-zelco-642146313/?originalSubdomain=it
+    position: PhD Student
+    profilepic: zelco.png
     category: phd
 
 -
