@@ -66,13 +66,15 @@
     category: postdoc
     position: Postdoc
 
-- 
-    lastname: Lempereur
-    firstname: Etienne
-    url: https://www.di.ens.fr/data/
-    position: PhD Student
-    profilepic: lempereur.png
-    category: phd
+
+
+-   
+    lastname: Schreuder
+    firstname: Nicolas
+    url: https://nicolasschreuder.github.io/
+    position: Researcher
+    info: CNRS
+    category: feature
 
 - 
     lastname: Wortsman
@@ -82,6 +84,28 @@
     profilepic: wortsman.png
     category: phd
 
+- 
+    lastname: Brandon
+    firstname: Julian
+    url: https://www.di.ens.fr/data/
+    profilepic: brandon.png
+    position: PhD Student
+    category: phd
+
+- 
+    lastname: Adly
+    firstname: Maxence
+    url: https://www.di.ens.fr/data/
+    profilepic: adly.png
+    position: PhD Student
+    category: phd
+
+- 
+    lastname: Issa
+    firstname: Victor
+    url: https://www.di.ens.fr/data/
+    position: Postdoc
+    category: postdoc
 - 
     lastname: De Filippis
     firstname: Leonardo
@@ -108,7 +132,7 @@
 -
     lastname: Bourdrez
     firstname: Constant
-    url: https://www.di.ens.fr/data/
+    url: https://constantbourdrez.github.io/
     profilepic: bourdrez.png
     position: PhD Student
     category: phd
@@ -277,4 +301,9 @@
   url: http://web.math.princeton.edu/~janden/
   info: Associate Professor @ KTH Royal Institute of Technology
 
-  
+-
+  lastname: Lempereur
+  firstname: Etienne
+  url: https://www.di.ens.fr/data/
+  category: alumni
+  info: Researcher @ QRT
